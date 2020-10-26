@@ -7,6 +7,5 @@ function triangleArea(a, b, c) {
     if (wynik <= 0) {
         return -1;
     }
-    console.log(Math.round(wynik * 100) / 100);
     return Math.round(wynik * 100) / 100;
 }
